@@ -8,3 +8,9 @@
     margin : 1rem;
 
 }
+.expense-notfound{
+    letter-spacing:2px;
+    color : white;
+    text-align: center;
+
+}

@@ -3,7 +3,12 @@ import NewExpense from "./components/NewExpense/NewExpense";
 
 import React, {useState} from "react";
 const tempExpenses = [
-
+  {
+    expenseTitle : 'Car',
+    expenseAmount : 123,
+    expenseDate : new Date(2021, 3, 21),
+    id : 1
+  }
 ];
 function App() {
   const [expenseData , addNewExpenseHandler ] = useState(tempExpenses);
